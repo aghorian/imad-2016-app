@@ -1,4 +1,3 @@
-console.log('Loaded!');
 // counter code
 var counter = 0;
 var button = document.getElementById('counter');
