@@ -18,6 +18,6 @@ button.onclick = function() {
     };
     
     // Make the request
-    request.open('GET','https://aghorian.imad.hasura-app.io');
+    request.open('GET','https://aghorian.imad.hasura-app.io',true);
     request.send(null);
 };
