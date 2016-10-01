@@ -15,7 +15,7 @@ button.onclick = function() {
                 span.innerHTML = counter.toString();
             }
         }
-    }
+    };
     
     // Make the request
     request.open('GET','https://aghorian.imad.hasura-app.io');
